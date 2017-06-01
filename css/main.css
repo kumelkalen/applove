@@ -2,6 +2,7 @@
  * Ingresa el CSS del proyecto en este archivo
  */
 
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -53,6 +54,8 @@ header{
   overflow: auto;
 }
 
+/* Sección inicial */
+
 #home{
   background-image: url(../assets/images/bg-home.jpg);
   background-position: center;
@@ -84,6 +87,7 @@ header{
   font-size: 14px;
 }
 
+/* Services Section */
 #services{
   background-color: #F17C72;
   text-align: center;
@@ -102,6 +106,8 @@ header{
   letter-spacing: 2px;
 }
 
+
+/* Footer-copyright */
 footer{
   text-align: center;
   height: 70px;
@@ -111,8 +117,25 @@ footer{
 
 }
 
+/* Work Section */
+
 #work .container{
   text-align: center;
   padding: 70px;
+}
+
+#sub-work{
+  padding-bottom: 50px;
+}
+
+/* Computer Image */
+ .image{
+  width:70%;
+  margin: 0 auto;
+
+}
+
+.image img {
+  width: 100%;
 }
 

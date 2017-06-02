@@ -108,13 +108,13 @@ header{
 
 
 /* Footer-copyright */
-footer{
+footer {
   text-align: center;
   height: 70px;
   background-color: #373b47;
   color: white;
- padding-top: 7px;
-
+  padding-top: 7px;
+  margin-top:50px;
 }
 
 /* Work Section */
@@ -130,12 +130,15 @@ footer{
 
 /* Computer Image */
  .image{
-  width:70%;
-  margin: 0 auto;
+  width:70%; /* Ponemos un ancho máximo*/
+  margin: 0 auto; /* Centramos la caja con un ancho de 'automático' */
 
 }
 
 .image img {
-  width: 100%;
+  width: 100%; /* El ancho le ponemos el 100% para que se adapte al ancho de su padre*/
 }
 
+.col-4{
+  padding: 40px; /* Separamos las cajas entre sí */
+}
